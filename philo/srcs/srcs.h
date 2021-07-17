@@ -6,7 +6,7 @@
 /*   By: gbeco <gbeco@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/14 13:42:46 by gbeco             #+#    #+#             */
-/*   Updated: 2021/07/14 14:04:45 by gbeco            ###   ########.fr       */
+/*   Updated: 2021/07/14 17:50:09 by gbeco            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,12 @@
 # define SRCS_H
 
 # include <unistd.h>
+# include <string.h>
+# include <stdio.h>
+# include <stdlib.h>
+# include <sys/time.h>
+# include <pthread.h>
+
 
 typedef struct s_vars
 {

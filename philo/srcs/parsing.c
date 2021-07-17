@@ -6,7 +6,7 @@
 /*   By: gbeco <gbeco@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/14 13:48:47 by gbeco             #+#    #+#             */
-/*   Updated: 2021/07/14 14:13:01 by gbeco            ###   ########.fr       */
+/*   Updated: 2021/07/17 08:19:12 by gbeco            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,5 +43,5 @@ int	parsing(char **av, t_vars *vars)
 	vars->time_to_sleep = ft_atoi(av[4]);
 	if (av[5] != NULL)
 		vars->nbr_eat = ft_atoi(av[5]);
-
+	return (0);
 }
